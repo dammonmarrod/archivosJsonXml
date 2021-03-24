@@ -11,7 +11,7 @@
 "producto": [
 { "nombre": "leche",  "nota": "leche suprema Asturiana",   "perecedero": true,  "precioVta": 3.27 },
 { "nombre": "galletas",  "nota": "galletas de chocolate",   "perecedero": false,  "precioVta": 3.27 },
-]
+],
 "categoria":"limpieza",
 
 "categoria":"fruta",
