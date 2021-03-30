@@ -1,172 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<supermercados>
-	<supermercado>
-		<nombre>Lidl</nombre>
-		<direccion>Av. de la Institución Libre de Enseñanza, 23C, 28037 Madrid</direccion>
-		<geoposicion>40.439243328338364, -3.633533500924182</geoposicion>
-		<ofertas>
-			<oferta>
-				<producto>Leche</producto>
-				<oferta>0.5</oferta>
-				<vigencia>24-05-2021</vigencia>
-				<nota></nota>
-			</oferta>
+<recursosTypeScript>
+	
+	<youtubeTypeScript>
+		<nombre>JavaScript vs TypeScript diferencias en código [Typescript 2021]</nombre>
+		<autor>Navis Code</autor>
+		<linkListaReproduccion></linkListaReproduccion>
+		<videos>
+			<video>
+				<titulo>JavaScript vs TypeScript diferencias en código [Typescript 2021]</titulo>
+				<url>https://www.youtube.com/watch?v=4kB3A3RZCBY</url>
+			</video>
+		</videos>
+	</youtubeTypeScript>
+	
+	<youtubeTypeScript>
+		<nombre>TypeScript 4.0</nombre>
+		<autor>Makingas</autor>
+		<linkListaReproduccion>https://www.youtube.com/playlist?list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5</linkListaReproduccion>
+		<videos>
+			<video>
+				<titulo>TypeScript 4.0 – 1. Temporada 1</titulo>
+				<url>https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5&index=1</url>
+			</video>
+			<video>
+				<titulo>TypeScript 4.0 – 2. ¿Qué es TypeScript?</titulo>
+				<url>https://www.youtube.com/watch?v=OMooUQNZbX0&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5&index=2</url>
+			</video>
+			
+			<video>
+				<titulo>TypeScript 4.0 – 3. Instalar TypeScript</titulo>
+				<url>https://www.youtube.com/watch?v=meSidBf_K8k&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5&index=3</url>
+			</video>
+		</videos>
+	</youtubeTypeScript>
+	
+	<youtubeTypeScript>
+		<nombre>Tu priemra App con TypeScript en 60 minutos</nombre>
+		<autor>Vida MRR</autor>
+		<linkListaReproduccion></linkListaReproduccion>
+		<videos>
+			<video>
+				<titulo>Tu priemra App con TypeScript en 60 minutos</titulo>
+				<url>https://www.youtube.com/watch?v=q75_otjrYFw</url>
+			</video>
+		</videos>
+	</youtubeTypeScript>
+	
+	
+	<youtubeTypeScript>
+		<nombre>TypeScript para Javeros</nombre>
+		<autor>Micael Gallego</autor>
+		<linkListaReproduccion></linkListaReproduccion>
+		<videos>
+			<video>
+				<titulo>TypeScript para Javeros: Cómo programar web front-end y sentirse como en casa - T3chFest2016</titulo>
+				<url>https://www.youtube.com/watch?v=oQXmOjclU7w</url>
+			</video>
+			<video>
+				<titulo>Micael Gallego TypeScript para javeros</titulo>
+				<url>https://www.youtube.com/watch?v=bR2g6_9A5jk</url>
+			</video>
+			<video>
+				<titulo>NestJS, Backends para javeros y punto neteros con Typescript - Francisco Javier Barrena</titulo>
+				<url>https://www.youtube.com/watch?v=7oEV4p8IJVM</url>
+			</video>
+			<video>
+				<titulo>Micael Gallego | TypeScript Un lenguaje aburrido para programadores | Codemotion Madrid 2016</titulo>
+				<url>https://www.youtube.com/watch?v=Ug8T-fv63rY</url>
+			</video>
+			
+		</videos>
+	</youtubeTypeScript>
+	
+	
+	
+	<youtubeTypeScript>
+		<nombre>TypeScript - Guía completa y manual de mano</nombre>
+		<autor>Fernando Herrera</autor>
+		<linkListaReproduccion>https://www.youtube.com/watch?v=FufR-Vailzk&list=PLCKuOXG0bPi2J-C0WPRZdHTG6pareIvV2</linkListaReproduccion>
+		<videos>
+			<video>
+				<titulo>0. Introducción al typescript</titulo>
+				<url>https://www.youtube.com/watch?v=FufR-Vailzk&list=PLCKuOXG0bPi2J-C0WPRZdHTG6pareIvV2</url>
+			</video>
+			<video>
+				<titulo>1. Instalaciones necesarias para el curso</titulo>
+				<url>https://www.youtube.com/watch?v=uE8rf-I4yn0&list=PLCKuOXG0bPi2J-C0WPRZdHTG6pareIvV2&index=2</url>
+			</video>
+			
+			<video>
+				<titulo>2. Hola mundo en TypeScript</titulo>
+				<url>https://www.youtube.com/watch?v=pFFDvcSco4Q&list=PLCKuOXG0bPi2J-C0WPRZdHTG6pareIvV2&index=3</url>
+			</video>
+		</videos>
+	</youtubeTypeScript>
 
-			<oferta>
-				<producto>Galletas</producto>
-				<oferta>2 x 1</oferta>
-				<vigencia> 24-06-2021</vigencia>
-				<nota></nota>
-			</oferta>
-
-			<oferta>
-				<producto>Magdalenas</producto>
-				<oferta>3 x 2</oferta>
-				<vigencia>31-03-2021</vigencia>
-				<nota></nota>
-			</oferta>
-		</ofertas>
-		<productos>
-			<producto>
-				<nombre>Naranjas</nombre>
-				<precio>2</precio>
-				<unidades>10</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Brocoli</nombre>
-				<precio>1</precio>
-				<unidades>100gr</unidades>
-				<adquirido>false</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Pan</nombre>
-				<precio>1.75</precio>
-				<unidades>3</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Lentejas</nombre>
-				<precio>1</precio>
-				<unidades>4</unidades>
-				<adquirido>false</adquirido>
-			</producto>
-		</productos>
-	</supermercado>
-
-	<supermercado>
-		<nombre>Mercadona</nombre>
-		<direccion>C. de Julián Camarillo, 15, 28037 Madrid</direccion>
-		<geoposicion>40.43454528922788, -3.631572009059317</geoposicion>
-		<ofertas>
-			<oferta>
-				<producto>Espinacas</producto>
-				<oferta>Regalo Lechuga</oferta>
-				<vigencia>01-04-2021</vigencia>
-				<nota></nota>
-			</oferta>
-
-			<oferta>
-				<producto>Fresas</producto>
-				<oferta>2 Kilos 2€</oferta>
-				<vigencia>25-04-2021</vigencia>
-				<nota></nota>
-			</oferta>
-
-			<oferta>
-				<producto>Fregona</producto>
-				<oferta>2 x 1</oferta>
-				<vigencia>20-04-2021</vigencia>
-				<nota></nota>
-			</oferta>
-		</ofertas>
-		<productos>
-			<producto>
-				<nombre>Café</nombre>
-				<precio>5.40</precio>
-				<unidades>1</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Pizza</nombre>
-				<precio>1.99</precio>
-				<unidades>2</unidades>
-				<adquirido>false</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Berenjenas</nombre>
-				<precio>2</precio>
-				<unidades>1 Kilo</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Servilletas</nombre>
-				<precio>1</precio>
-				<unidades>500</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-		</productos>
-	</supermercado>
-	<supermercado>
-		<nombre>Ahorramas</nombre>
-		<direccion>Plaza de Vilaflor, s/n, 28017 Madrid</direccion>
-		<geoposicion>40.43327874991308, -3.6360848741069463</geoposicion>
-		<ofertas>
-			<oferta>
-				<producto>Espinacas</producto>
-				<oferta>Regalo Lechuga</oferta>
-				<vigencia>01-04-2021</vigencia>
-				<nota></nota>
-			</oferta>
-
-			<oferta>
-				<producto>Fresas</producto>
-				<oferta>2 Kilos 2€</oferta>
-				<vigencia>25-04-2021</vigencia>
-				<nota></nota>
-			</oferta>
-
-			<oferta>
-				<producto>Fregona</producto>
-				<oferta>2 x 1</oferta>
-				<vigencia>20-04-2021</vigencia>
-				<nota></nota>
-			</oferta>
-		</ofertas>
-		<productos>
-			<producto>
-				<nombre>Café</nombre>
-				<precio>5.40</precio>
-				<unidades>1</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Pizza</nombre>
-				<precio>1.99</precio>
-				<unidades>2</unidades>
-				<adquirido>false</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Berenjenas</nombre>
-				<precio>2</precio>
-				<unidades>1 Kilo</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-
-			<producto>
-				<nombre>Servilletas</nombre>
-				<precio>1</precio>
-				<unidades>500</unidades>
-				<adquirido>true</adquirido>
-			</producto>
-		</productos>
-	</supermercado>
-</supermercados>
+	<youtubeTypeScript>
+		<nombre>Programando en TypeScript</nombre>
+		<autor>gavilanch2</autor>
+		<linkListaReproduccion>https://www.youtube.com/playlist?list=PL0kIvpOlieSP77e_gcmYMICd3Z4946Nkx</linkListaReproduccion>
+		<videos>
+			<video>
+				<titulo>Introducción a TypeScript | Programando en TypeScript</titulo>
+				<url>https://www.youtube.com/watch?v=sUypOxuYHvs&list=PL0kIvpOlieSP77e_gcmYMICd3Z4946Nkx&index=1</url>
+			</video>
+			<video>
+				<titulo>Configurando Visual Studio Code para usar TypeScript | Introducción | Programando en TypeScript</titulo>
+				<url>https://www.youtube.com/watch?v=61ouhFEho5Y&list=PL0kIvpOlieSP77e_gcmYMICd3Z4946Nkx&index=2</url>
+			</video>
+			
+			<video>
+				<titulo>Configurando TypeScript en Visual Studio | Introducción | Programando en TypeScript</titulo>
+				<url>https://www.youtube.com/watch?v=5_4S7F1-vLU&list=PL0kIvpOlieSP77e_gcmYMICd3Z4946Nkx&index=3</url>
+			</video>
+		</videos>
+	</youtubeTypeScript>
+	
+</recursosTypeScript>
